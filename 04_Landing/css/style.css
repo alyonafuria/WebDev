@@ -1,0 +1,96 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
+
+.header {
+	max-width: 1440px;
+	height: 200px;
+	background-color: #E5E000;
+}
+
+.name-container {
+	height: 100%;
+	padding: 0 80px;
+}
+
+.name-title {
+	color: white;
+	font-family: Helvetica;
+	font-size: 50px;
+	line-height: 200px;	
+}
+
+.background {
+	max-width: 1440px;
+	height:1080px;
+	background-image: url(../img/back.png);
+	background-size: contain;
+}
+
+.nav {
+	max-width: 1440px;
+	height: 100px;
+	background-color: #E5E000;
+}
+
+.link {
+	padding: 0 80px;
+	text-decoration: none;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 25px;
+	line-height: 100px;
+	color: white;
+}
+
+.about {
+width: 1440px;
+margin: 100px 80px;
+}
+
+.main-title {
+font-family: 'Roboto Slab', serif;
+font-size: 60px;
+line-height: 60px;
+color: #000000;
+
+}
+
+.main-text {
+	width: 1440px;
+	box-sizing: border-box;
+font-family: Helvetica;
+font-weight: normal;
+font-size: 50px;
+line-height: 60px;
+color: #000000;
+
+}
+
+.footer-container {
+	height: 200px;
+	max-width: 1440px;
+	background-color: #E5E000;
+}
+
+.footer-items {
+	height: 200px;
+	padding: 0 80px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo {
+	height: auto;
+	width: auto;
+}
+
+.course-title {
+font-family: Helvetica;
+font-size: 50px;
+font-weight: bold;
+line-height: 200px;
+text-align: right;
+color: #FFFFFF;
+}
