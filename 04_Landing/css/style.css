@@ -15,6 +15,7 @@
 .name-title {
 	color: white;
 	font-family: Helvetica;
+	font-weight: bold;
 	font-size: 50px;
 	line-height: 200px;	
 }
@@ -45,22 +46,23 @@
 
 .about {
 width: 1440px;
-margin: 100px 80px;
+padding: 100px 80px;
 }
 
 .main-title {
 font-family: 'Roboto Slab', serif;
 font-size: 60px;
-line-height: 60px;
+line-height: 57px;
 color: #000000;
 
 }
 
 .main-text {
+max-width: 1280px;
 font-family: Helvetica;
 font-weight: normal;
 font-size: 50px;
-line-height: 60px;
+line-height: 57px;
 color: #000000;
 
 }
