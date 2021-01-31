@@ -2,7 +2,6 @@
 
 .header {
 	height: 60px;
-	width: 1440px;	
 	background-color:#FE1A19;
 }
 
@@ -19,7 +18,7 @@
 
 .main {
 	box-sizing: border-box;
-	position: relative;
+	text-align: center;
 	padding: 50px 45px;
 }
 
@@ -33,11 +32,10 @@
 	margin: 25px;
 	box-sizing: border-box;
 	vertical-align: top;
+	text-align: left;
 }
 
 .dish-title {
-	display: inline-block;
-	position: absolute;
 	margin: 33px;
 	font-family: Helvetica;
 	font-style: normal;
@@ -45,22 +43,30 @@
 	font-size: 20px;
 }
 
-.dish-text {
-	position: absolute;
-	top: 97px;
-	margin: 0px 33px 33px;
+.item-title {
+	margin: 33px 33px 5px;
 	font-family: Times New Roman;
 	font-style: normal;
 	font-weight: normal;
 	font-size: 20px;
 	line-height: 23px;
-	display: inline-block;
+}
+
+.list {
+	margin: 0px 33px;
+}
+
+.item {
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
 }
 
 
 .footer {
 	height: 60px;
-	width: 1440px;	
 	background-color:#FE1A19;
 }
 
