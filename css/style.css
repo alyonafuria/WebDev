@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 
 .header {
-	max-width: 1440px;
 	height: 200px;
 	background-color: #E5E000;
 }
@@ -20,15 +19,17 @@
 	line-height: 200px;	
 }
 
+.main {
+	width: 100%;
+}
+
 .background {
-	max-width: 1440px;
-	height:1080px;
+	height: 1280px;
 	background-image: url(../img/back.png);
-	background-size: contain;
+	background-size: cover;
 }
 
 .nav {
-	max-width: 1440px;
 	height: 100px;
 	background-color: #E5E000;
 }
@@ -46,7 +47,6 @@
 }
 
 .about {
-width: 1440px;
 padding: 100px 80px;
 }
 
@@ -59,7 +59,6 @@ color: #000000;
 }
 
 .main-text {
-max-width: 1280px;
 font-family: Helvetica;
 font-weight: normal;
 font-size: 50px;
@@ -70,7 +69,6 @@ color: #000000;
 
 .footer-container {
 	height: 200px;
-	max-width: 1440px;
 	background-color: #E5E000;
 }
 
