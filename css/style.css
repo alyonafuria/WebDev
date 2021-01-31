@@ -34,7 +34,8 @@
 }
 
 .link {
-	padding: 0 80px;
+	position: relative;
+	left: 80px;
 	text-decoration: none;
 	font-family: Helvetica;
 	font-style: normal;

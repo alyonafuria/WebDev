@@ -1,0 +1,75 @@
+@import url(reset.css);
+
+.header {
+	height: 60px;
+	width: 1440px;	
+	background-color:#FE1A19;
+}
+
+.header-title {
+	position: absolute;
+	left: 20px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: white;
+}
+
+.main {
+	box-sizing: border-box;
+	position: relative;
+	padding: 50px 45px;
+}
+
+.table {
+	width: 400px;	
+	height: 800px;
+	position: relative;
+	border: 5px solid #E5E000;
+	border-radius: 30px;
+	display: inline-block;
+	margin: 25px;
+	box-sizing: border-box;
+	vertical-align: top;
+}
+
+.dish-title {
+	display: inline-block;
+	position: absolute;
+	margin: 33px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.dish-text {
+	position: absolute;
+	top: 97px;
+	margin: 0px 33px 33px;
+	font-family: Times New Roman;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 23px;
+	display: inline-block;
+}
+
+
+.footer {
+	height: 60px;
+	width: 1440px;	
+	background-color:#FE1A19;
+}
+
+.copyright {
+	margin: 20px;
+	font-family: Helvetica;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 60px;
+	color: white;
+}
