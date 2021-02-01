@@ -19,10 +19,6 @@
 	line-height: 200px;	
 }
 
-.main {
-	width: 100%;
-}
-
 .background {
 	height: 1280px;
 	background-image: url(../img/back.png);
@@ -44,6 +40,7 @@
 	font-size: 25px;
 	line-height: 100px;
 	color: white;
+	text-transform: uppercase;
 }
 
 .about {
