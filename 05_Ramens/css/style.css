@@ -1,5 +1,9 @@
 @import url(reset.css);
 
+.page {
+	height: 100vh;
+}
+
 .header {
 	height: 60px;
 	background-color:#FE1A19;
@@ -19,7 +23,13 @@
 .main {
 	box-sizing: border-box;
 	text-align: center;
-	padding: 50px 45px;
+	height: calc(100% - 120px);
+}
+
+.table-container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .table {
@@ -29,10 +39,14 @@
 	border: 5px solid #E5E000;
 	border-radius: 30px;
 	display: inline-block;
-	margin: 25px;
 	box-sizing: border-box;
 	vertical-align: top;
+	margin: auto;
 	text-align: left;
+}
+
+.table-center {
+	margin: 0 25px;
 }
 
 .dish-title {
@@ -68,10 +82,10 @@
 .footer {
 	height: 60px;
 	background-color:#FE1A19;
+	padding: 0 20px;
 }
 
 .copyright {
-	margin: 20px;
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
