@@ -23,18 +23,13 @@
 .main {
 	box-sizing: border-box;
 	text-align: center;
-	height: calc(100% - 120px);
-}
-
-.table-container {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
+	min-height: calc(100% - 120px);
+	padding: 20px;
 }
 
 .table {
 	width: 400px;	
-	height: 800px;
+	min-height: 800px;
 	position: relative;
 	border: 5px solid #E5E000;
 	border-radius: 30px;
