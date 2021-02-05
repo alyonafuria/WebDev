@@ -24,7 +24,7 @@
 	box-sizing: border-box;
 	text-align: center;
 	min-height: calc(100% - 120px);
-	padding: 20px;
+	padding: 52px;
 }
 
 .table {
@@ -41,7 +41,7 @@
 }
 
 .table-center {
-	margin: 0 25px;
+	margin: 0 50px;
 }
 
 .dish-title {
