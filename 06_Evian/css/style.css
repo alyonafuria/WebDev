@@ -52,7 +52,7 @@
 
 .hero {
 	position: relative;
-	top: 140px;
+	padding: 140px 0 0;
 	width: 100%;
 	height: 950px;
 	background-image: url(../img/evian_origins_logo.png);
@@ -62,8 +62,6 @@
 }
 
 .heading {
-	top: 120px;
-	position: relative;
 	font-family: Arial;
 	font-style: normal;
 	font-weight: normal;
@@ -75,8 +73,7 @@
 /*ABOUT OUR WATER*/
 
 .main-content {
-	padding: 250px 200px 150px;
-	position: relative;
+	padding: 110px 200px 150px;
 	display: flex;
 	align-content: center;
 	flex-direction: column;
@@ -84,12 +81,10 @@
 
 .main-info {
 	padding: 24px;
-	position: relative;
 	width: 1040px;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
-	margin: auto;
 }
 
 .main-title {
@@ -115,7 +110,6 @@
 }
 
 .bottle {
-	position: relative;
 	height: 1000px;
 	width: 280px;
 	display: flex;
@@ -136,13 +130,11 @@
 
 .bottle-info {
 	padding: 24px;
-	position: relative;
 	width: 1040px;
 	height: 280px;
 	border: 3px solid #F8BFC7;
 	box-sizing: border-box;
 	border-radius: 20px;
-	margin: auto;
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
