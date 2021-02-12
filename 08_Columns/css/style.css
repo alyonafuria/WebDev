@@ -1,0 +1,72 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.header, .footer {
+	min-height: 160px;
+	background-color: #FFE138;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 3rem;
+	line-height: 1.5em;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+	box-sizing: border-box;
+}
+
+.column-container {
+	width: 80vw;
+	margin: auto;
+	padding: 70px;
+	min-height: 500px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.column {
+	width: calc((100% - 100px)/3);
+	min-width: 250px;
+	border: 1px solid black;
+	margin: 20px 0;
+}
+
+.image-one {
+	background-image: url(../img/yosemite.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image-two {
+	background-image: url(../img/deathvalley.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.image-three {
+	background-image: url(../img/bigsur.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.column-title {
+	padding: 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.column-text {
+	box-sizing: border-box;
+	padding: 0 30px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
