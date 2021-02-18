@@ -1,0 +1,88 @@
+@import url(reset.css);
+
+.header, .footer {
+	height: 10vh;
+	background-color: blue;
+	padding: 0 30px;
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.general-title {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	font-family: Helvetica, sans-serif;
+	font-size: 1.2em;
+}
+
+.news-container {
+	margin: auto;
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	position: absolute;
+	top: 10vh;
+	overflow: scroll;
+}
+
+.news {
+	min-height: 120px;
+	border: 5px solid black;
+	box-sizing: border-box;
+	margin: 1em;
+	padding: 1em;
+	display: flex;
+	align-items: center;
+}
+
+.news-title {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+.footer-content {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+
+@media screen and (min-width: 668px) {
+
+.general-title {
+	font-size: 2em;
+}
+
+.news-container {
+	flex-flow: row wrap;
+	justify-content: center;
+	align-content: center;
+}
+
+.news {
+	width: 40vw;
+	min-height: 20vh;
+}
+
+.news-title {
+	font-size: 2em;
+}
+
+}
