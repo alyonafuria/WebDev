@@ -19,12 +19,12 @@
 
 .column-container {
 	width: 80vw;
-	margin: auto;
-	padding: 70px;
+	margin: 70px auto;
 	min-height: 500px;
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
+	align-items: flex-start;
 }
 
 .column {
@@ -38,21 +38,21 @@
 	background-image: url(../img/yosemite.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 160%;
 }
 
 .image-two {
 	background-image: url(../img/deathvalley.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 160%;
 }
 
 .image-three {
 	background-image: url(../img/bigsur.jpg);
 	background-size: cover;
 	background-position: center;
-	padding-bottom: 100%;
+	padding-bottom: 160%;
 }
 
 .column-title {
