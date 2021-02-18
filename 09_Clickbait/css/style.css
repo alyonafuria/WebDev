@@ -31,7 +31,8 @@
 	align-content: center;
 	position: absolute;
 	top: 10vh;
-	overflow: scroll;
+	overflow-y: scroll;
+	overflow: hidden;
 }
 
 .news {
