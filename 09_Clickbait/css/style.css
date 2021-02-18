@@ -31,8 +31,11 @@
 	align-content: center;
 	position: absolute;
 	top: 10vh;
-	overflow-y: scroll;
-	overflow: hidden;
+	overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+	display: none;
 }
 
 .news {
