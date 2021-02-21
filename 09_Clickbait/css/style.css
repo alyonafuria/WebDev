@@ -39,7 +39,7 @@
 }
 
 .news {
-	min-height: 120px;
+	min-height: 20vh;
 	border: 5px solid black;
 	box-sizing: border-box;
 	margin: 1em;
@@ -52,6 +52,8 @@
 	font-family: Helvetica, sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
+	line-height: 1.4em;
+	margin: auto;
 	text-align: center;
 }
 
@@ -81,8 +83,8 @@
 }
 
 .news {
-	width: 40vw;
-	min-height: 20vh;
+	width: 60vh;
+	height: 25vh;
 }
 
 .news-title {
