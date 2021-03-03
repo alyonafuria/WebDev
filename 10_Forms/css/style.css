@@ -27,14 +27,11 @@
 
 .header-text, .footer-text {
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
 	text-decoration: none;
 	text-transform: uppercase;
 	font-size: 1.5rem;
 	line-height: 1.5rem;
-}
-
-.header-text, .footer-text {
 	color: #EBDD8B;
 }
 
@@ -44,16 +41,18 @@
 }
 
 .background {
-	height: 60vh;
+	height: 70vh;
 	background-image: url(../img/leaves1.png);
 	background-position: 0 100%;
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
 	box-shadow: 0 3px 7px #142438;
+	display: flex;
+	align-items: center;
 }
 
 .message {
-	height: 20vh;
+	height: 10vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -70,79 +69,92 @@
 }
 
 form {
-	position: absolute;
-	top: 15vh;
-	left: 8vw;
-	width: 20vw;
+	box-sizing: border-box;
+	margin-left: 5vw;
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	font-size: 1.2rem;
+	font-size: calc(0.8rem + 1vh);
 	color: #faf6d9;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 }
 
 .fieldset-main {
+	box-sizing: border-box;
+	width: 25vw;
+	max-height: 60vh;
+	min-width: 350px;
 	border: 4px solid #EBDD8B;
 	border-radius: 20px;
 	padding: 20px;
 	background-color: #344F75;
+	overflow-y: auto;
 }
 
-.submit {
-	position: relative;
-	top: 50%;
+::-webkit-scrollbar {
+	display: none;
 }
 
-input, select, textarea {
+input, select {
 	border: none;
 	display: block;
 	width: 100%;
 	font-family: 'PT Mono', monospace;
-	color: lightgrey;
+	color: #a59d73;
 	background-color: #344F75;
+	margin-bottom: 1.2rem;
 }
 
-input[type="text"], input[type="email"], input[type="number"] {
+::placeholder {
+	color: #a59d73;
+}
+
+input[type="text"], input[type="email"], input[type="number"], input[type="date"], input[type="time"] {
 	box-shadow: 0 1px #142438;
 }
 
-input[type="date"], input[type="time"], textarea {
+select{
 	border: 1px solid #142438;
 }
 
-input {
-	height: 30px;
+input, select {
+	height: 2vh;
 }
 
 label {
-	line-height: 2rem;
+	line-height: 1.8rem;
 }
 
-textarea {
-	height: 80px;
-	width: 100%;
-}
-
-input:focus, textarea:focus, select:focus {
+input:focus, select:focus {
 	outline-color: #142438;
 }
 
 input[type="submit"] {
+	box-sizing: border-box;
+	width: 25vw;
+	min-width: 350px;
+	margin: 10px 0 0;
 	background-color: #142438;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 500;
+	font-weight: 700;
+	font-size: calc(0.8rem + 1vh);
 	text-transform: uppercase;
-	height: 30px;
-	border-radius: 15px;
+	height: 50px;
+	border-radius: 25px;
 	cursor: pointer;
+	color: #EBDD8B;
+	border: 4px solid #EBDD8B;
 }
 
 input[type="submit"]:hover {
 	background-color: #E0AD4D;
 	color: #142438;
+	border: 4px solid #EBDD8B;
 }
 
 .footer {
-	position: absolute;
+	position: relative;
 	bottom: 0;
 	width: 100%;
 }
@@ -151,3 +163,51 @@ input[type="submit"]:hover {
 	height: 100%;
 }
 
+@media screen and (max-width: 667px) {
+
+.background {
+	height: 80vh;
+	background-image: url(../img/leaves1.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+form {
+	height: 78vh;
+}
+
+input, select {
+	height: 4vh;
+}
+
+input[type="submit"] {
+	width: 90vw;
+	height: 7vh;
+	border-radius: 3.5vh;
+}
+
+.fieldset-main {
+	width: 90vw;
+	height: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.header-text, .footer-text {
+	font-size: calc(0.5rem + 1vh);
+}
+
+.header, .footer-container {
+	padding: 0 1em;
+}
+
+.nav {
+	width: 60vw;
+}
+
+.message {
+	display: none;
+}
+
+}

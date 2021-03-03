@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Boilerplate</title>
+	<title>Hot Coffee</title>
 	<meta charset="utf-8">
-	<meta description="Boilerplate code">
-	<meta keywords="boilerplate, test">
+	<meta description="Hot Coffee Delivery">
+	<meta keywords="coffee, delivery">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -12,7 +12,7 @@
 	<div class="page">
 		<header class="header">
 			<nav class="nav">
-				<a href="#" class="header-text">посылки</a>
+				<a href="#" class="header-text">кофе</a>
 				<a href="#" class="header-text">упаковка</a>
 				<a href="#" class="header-text">подписка</a>
 			</nav>
@@ -21,9 +21,9 @@
 			</div>
 		</header>
 		<main class="main">
-			<form action="">
+			<div class="background">
+				<form action="https://formspree.io/f/myybqolb" method="POST">
 				<fieldset class="fieldset-main">
-					<legend>Ваш заказ</legend>
 					<label for="name">Имя</label>
 					<input type="text" name="name" placeholder="Иван">
 					<label for="date">Дата</label>
@@ -42,14 +42,12 @@
 					<input type="number" name="number" placeholder="1">
 					<label for="email">Электронная почта</label>
 					<input type="email" name="email" placeholder="ineedcoffee@gmail.com">
-					<label for="comment">Комментарий</label>
-					<textarea name="comment">Дополнительная информация</textarea>
 				</fieldset>
 				<fieldset class="submit">
 					<input type="submit">
 				</fieldset>
 			</form>
-			<div class="background"></div>
+			</div>
 			<div class="message">
 				<h2 class="message-text">ваш кофе уже в пути!</h2>
 			</div>
@@ -57,7 +55,7 @@
 		<footer class="footer">
 			<div class="footer-container">
 				<a href="#" class="footer-text">доставка горячего кофе по утрам</a>
-				<a href="#" class="footer-text">назад</a>
+				<a href="../index.html" class="footer-text">назад</a>
 			</div>
 		</footer>
 	</div>
