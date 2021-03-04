@@ -74,9 +74,6 @@ form {
 	font-weight: 500;
 	font-size: calc(0.8rem + 1vh);
 	color: #faf6d9;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
 }
 
 .fieldset-main {
@@ -169,10 +166,6 @@ input[type="submit"]:hover {
 	background-image: url(../img/leaves1.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-}
-
-form {
-	height: 78vh;
 }
 
 input, select {

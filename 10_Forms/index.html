@@ -24,12 +24,12 @@
 			<div class="background">
 				<form action="https://formspree.io/f/myybqolb" method="POST">
 				<fieldset class="fieldset-main">
-					<label for="name">Имя</label>
-					<input type="text" name="name" placeholder="Иван">
+					<label for="name" >Имя</label>
+					<input type="text" id="name" name="name" required placeholder="Иван">
 					<label for="date">Дата</label>
-					<input type="date" name="date">
+					<input type="date" id="date" name="date" required>
 					<label for="time">Время</label>
-					<input type="time" name="time">
+					<input type="time" id="time" name="time" required>
 					<label for="coffee">Кофе</label>
 					<select name="coffee">
 						<option value="filter">Фильтр</option>
@@ -39,9 +39,9 @@
 						<option value="espresso">Эспрессо</option>
 					</select>
 					<label for="number">Количество</label>
-					<input type="number" name="number" placeholder="1">
+					<input type="number" id="number" name="number" required placeholder="1">
 					<label for="email">Электронная почта</label>
-					<input type="email" name="email" placeholder="ineedcoffee@gmail.com">
+					<input type="email" id="email" name="email" required placeholder="ineedcoffee@gmail.com">
 				</fieldset>
 				<fieldset class="submit">
 					<input type="submit">
