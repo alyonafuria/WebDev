@@ -78,6 +78,7 @@
 }
 
 .news-container {
+	width: 80vw;
 	flex-flow: row wrap;
 	justify-content: center;
 	align-content: center;
