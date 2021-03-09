@@ -78,7 +78,7 @@ form {
 
 .fieldset-main {
 	box-sizing: border-box;
-	width: 25vw;
+	width: 400px;
 	max-height: 60vh;
 	min-width: 350px;
 	border: 4px solid #EBDD8B;
@@ -128,8 +128,7 @@ input:focus, select:focus {
 
 input[type="submit"] {
 	box-sizing: border-box;
-	width: 25vw;
-	min-width: 350px;
+	width: 400px;
 	margin: 10px 0 0;
 	background-color: #142438;
 	font-family: 'Raleway', sans-serif;
