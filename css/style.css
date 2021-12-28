@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 
 .header {
-	height: 200px;
+	height: 10vh;
 	background-color: #E5E000;
 }
 
@@ -16,17 +16,17 @@
 	font-family: Helvetica;
 	font-weight: bold;
 	font-size: 50px;
-	line-height: 200px;	
+	line-height: 10vh;	
 }
 
 .background {
-	height: 1280px;
+	height: 30vh;
 	background-image: url(../img/back.png);
 	background-size: cover;
 }
 
 .nav {
-	height: 100px;
+	height: 10vh;
 	background-color: #E5E000;
 }
 
@@ -37,20 +37,22 @@
 	font-family: Helvetica;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 25px;
-	line-height: 100px;
+	font-size: 2rem;
+	line-height: 10vh;
 	color: white;
 	text-transform: uppercase;
 }
 
 .about {
-padding: 100px 80px;
+	box-sizing: border-box;
+	height: 40vh;
+	padding: 50px 80px;
 }
 
 .main-title {
 font-family: 'Roboto Slab', serif;
-font-size: 60px;
-line-height: 57px;
+font-size: 3rem;
+line-height: 3rem;
 color: #000000;
 
 }
@@ -58,19 +60,19 @@ color: #000000;
 .main-text {
 font-family: Helvetica;
 font-weight: normal;
-font-size: 50px;
-line-height: 57px;
+font-size: 2rem;
+line-height: 2rem;
 color: #000000;
 
 }
 
 .footer-container {
-	height: 200px;
+	height: 10vh;
 	background-color: #E5E000;
 }
 
 .footer-items {
-	height: 200px;
+	height: 10vh;
 	padding: 0 80px;
 	display: flex;
 	align-items: center;
@@ -84,9 +86,9 @@ color: #000000;
 
 .course-title {
 font-family: Helvetica;
-font-size: 50px;
+font-size: 3rem;
 font-weight: bold;
-line-height: 200px;
+line-height: 10vh;
 text-align: right;
 color: #FFFFFF;
 }
